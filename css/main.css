@@ -1,0 +1,696 @@
+body {
+
+    font-size: 16px;
+    font-weight: 400px;
+    color: #333;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+/*CLEARFIX FLOAT*/
+
+.clearfix::after {
+
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.float--left {
+
+    float: left;
+
+}
+
+.float--right {
+
+    float: right;
+
+}
+
+/* INNER */
+
+.inner {
+
+    max-width: 980px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+/* HEADER */
+
+header {
+
+    height: 58px;
+    border-bottom: 1px solid rgba(0,0,0,.75);
+    box-shadow: 0 0 9px rgba(0,0,0,.6);
+    background: #ffffff;
+
+}
+
+header .inner {
+
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+header .inner .float--left {
+
+
+
+}
+
+header .inner .left-header .logo img {
+
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 13px;
+
+}
+
+/* HEADER RIGHT. */
+
+header .inner .float--right {
+
+    margin-right: 40px;
+    margin-top: 13px;
+
+}
+
+header .inner .float--right li {
+
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    margin-right: 30px;
+
+}
+
+header .inner .float--right li:last-child {
+
+    margin-right: 0;
+
+}
+
+/* LANDING PAGE CONFIGURATION */
+
+
+.landing .inner .left-landing {
+
+    width: 700px;
+    height: 400px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter; 
+    text-shadow: 0 0 2px rgba(0,0,0,.4);   
+
+}
+
+.landing .inner .left-landing h2 {
+
+    font-size: 40px;
+
+}
+
+.landing .inner .left-landing h2:first-child {
+
+    margin-bottom: 10px;
+    margin-top: 140px;
+
+}
+
+.landing .inner .left-landing h1 {
+
+    font-size: 55px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+/* About me section configuration */
+
+.about-me {
+
+    background-color: #e3dcd5;
+    height: 650px;
+
+}
+
+.about-me .inner {
+
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.about-me .inner h2 {
+
+    font-weight: lighter;
+    letter-spacing: 0.01em;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 30px;
+    text-shadow: 0 0 2px rgba(0,0,0,.4); 
+    margin-bottom: 20px;
+
+}
+
+.about-me .inner .left-section-1 {
+
+    width: 500px;
+    height: 380px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: normal;
+
+}
+
+.about-me .inner .left-section-1 p:first-child {
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.about-me .inner .left-section-1 p:last-child {
+
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+.about-me .inner .right-section-1 {
+
+    width: 480px;
+    height: 380px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.about-me .inner .right-section-1 img {
+
+    width: 350px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    
+
+}
+
+/*about-me btn cv download css configuration*/
+
+.btn-cv {
+
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+/* SKILL section css configuration */
+
+.skill-section .inner {
+
+    width: 100%;
+    height: 700px;
+
+}
+
+.skill-section .inner h2 {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+
+.skill-section .inner p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.5;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+
+}
+
+.skill-section .inner .skill-list h3 {
+
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 50px;
+    font-weight: bolder;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    margin-bottom: 20px;
+    display: inline;
+
+}
+
+.skill-section .inner .skill-list div:first-child {
+
+    margin-top: 50px;
+
+}
+
+.skill-section .inner .skill-list .web-development {
+
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3dcd5;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+}
+
+.skill-section .inner .skill-list .Ux-design {
+
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3dcd5;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.skill-section .inner .skill-list .Web-design {
+
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3dcd5;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.skill-section .inner .skill-list .backend-development {
+
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3dcd5;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.skill-section .inner .skill-list progress {
+
+    float: right;   
+
+}
+
+.skill-section .inner .skill-list p {
+
+    display: inline;
+    margin-left: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+
+}
+
+progress {
+
+    -webkit-appearance: none;
+    background: white;
+
+ }
+ progress::-webkit-progress-bar-value {
+
+   -webkit-appearance: none;
+
+ }
+
+ .skill-section .inner .contact-form p {
+
+    width: 550px;
+    float: left;
+    text-align: left;
+
+} 
+
+.skill-section .inner .contact-form .btn-cv {
+
+    float: right;
+
+}
+
+ /* MY LATEST WORK CSS CONFIGURATION */
+
+ .my-works {
+
+    height: 1600px;
+    background-color: #f1f1f1;
+
+ }
+
+ .my-works .inner {
+
+    height: 100%;
+
+ }
+
+ .my-works .inner h2 {
+
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    text-shadow: 0 0 3px rgba(0,0,0,.4);
+
+ }
+
+ .my-works .inner .my-work-list .portfolio-one .work-context {
+
+    font-family: 'Work Sans', sans-serif;
+    width: 600px;
+    float: right;
+
+ }
+
+ .my-works .inner .my-work-list .work-context p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-shadow: 0 0 1px rgba(0,0,0,.4);
+
+ }
+
+ .my-works .inner .my-work-list {
+
+    padding-bottom: 40px;
+
+ }
+
+ .my-works .inner .my-work-list img {
+
+    width: 270px;
+    height: 270px;
+
+ }
+
+ .my-works .inner .my-work-list .work-context .btn-learn-more {
+
+    margin-top: 40px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+
+ }
+
+ .my-works .inner .my-work-list .portfolio-one {
+
+    margin-top: 60px;
+    border-bottom: 1px solid #c7c3b5;
+    padding-bottom: 40px;
+
+ }
+
+ .my-works .inner .my-work-list .portfolio-two {
+
+    margin-top: 60px;
+    border-bottom: 1px solid #c7c3b5;
+    padding-bottom: 40px;
+
+ }
+
+ .my-works .inner .my-work-list .portfolio-two .work-context {
+
+    float: left;
+    width: 600px;
+    display: inline;
+
+ }
+
+ .my-works .inner .my-work-list .portfolio-two img {
+
+    float: right;
+    display: inline;
+
+ }
+
+ .my-works .inner .my-work-list .portfolio-two:last-child {
+
+    border-bottom: none;
+
+ }
+
+
+ /* What I THINK ABOUT MY WORK SECTION CSS CONFIGURATION */
+
+ .what-i-think .inner {
+
+    height: 650px;
+
+ }
+
+ .what-i-think .inner h2 {
+
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    font-weight: lighter;
+    font-size: 40px;
+    padding-top: 50px;
+
+ }
+
+ .what-i-think .inner .profile {
+
+    margin-top: 60px;
+
+ }
+
+ .what-i-think .inner img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+ }
+
+ .what-i-think .inner h3 {
+
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 60px;
+
+ }
+
+ .what-i-think .inner p {
+
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 2 1px rgba(0,0,0,.4);
+    margin-top: 40px;
+    line-height: 1.5;
+
+ }
+
+ .what-i-think .inner .btn-cv {
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 50px;
+    text-shadow: 0 2 1px rgba(0,0,0,.4);
+
+ }
+
+ /* CONTACT SECTION CSS CONFIGURATION */
+
+ .contact {
+
+    background: #e3dcd5;
+    height: 350px;
+
+ }
+
+ .contact .inner {
+
+
+
+ }
+
+ .contact .inner h2 {
+
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    font-weight: lighter;
+    margin-bottom: 40px;
+
+ }
+
+ .contact .inner .discription {
+
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+
+ }
+
+ .contact .inner form {
+
+    margin: 0 auto;
+    width: 500px;
+ }
+
+ #contact {
+
+    display: inline-block;
+    width: 500px;
+    height: 44px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+
+ }
+
+ /* FOOTER CSS CONFIGURATION */
+
+ footer {
+
+    height: 250px;
+
+ }
+
+ footer .inner h3 {
+
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 30px;
+    text-align: center;
+
+ }
+
+footer .inner .discription {
+
+    width: 800px;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    line-height: 1.2;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #c7c3b5;
+    padding-bottom: 50px;
+
+}
+
+footer .inner .credit {
+
+    width: 800px;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0 0 2px rgba(0,0,0,.4);
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+    /* COMMON CSS CONFIGURATION */
+
+/* responsive only classification css configuration. */
+
+.display--none {
+
+    display: none;
+
+}
+
+
+/** Will configure Header later on with JS.*/
+
+.landing .inner .left-landing {
+
+    margin-left: 20px;
+
+}
+
+.landing .inner .left-landing h2 {
+
+    font-size: 30px;
+
+}
+
+/* about-me section css responsive configuration */
+
+.about-me .inner .left-section-1 {
+
+    margin: 0 auto !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 500px;
+    
+
+}
+
+.about-me .inner .left-section-1 p {
+
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.about-me .inner .right-section-2 img {
+
+    
+
+
+}
+
+
+
+
+
+}
